@@ -1,0 +1,29 @@
+title: Jekyll Serial Programmer
+markdown: kramdown
+url: ""
+baseurl: "/jekyll-theme-serial-programmer"
+
+# for atom feed
+author:
+  name: Sharad Raj Singh Maurya
+  email: dev_sharad@outlook.com
+
+plugins:
+  - jekyll-paginate
+  - jemoji
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+collections_dir: all_collections
+collections:
+  posts:
+    output: true
+
+defaults:
+  - scope:
+      path: "_posts"
+    values:
+      layout: "post"
+      permalink: /posts/:title/
+exclude: ["sitemap.xml", "feed.xml", "LICENSE", "README.md"]

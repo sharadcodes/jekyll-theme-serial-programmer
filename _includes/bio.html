@@ -1,0 +1,18 @@
+<section id="bio">
+  <section id="img-wrapper">
+    <img src="{{site.data.author.dp}}" alt="" />
+  </section>
+  <section id="bio-wrapper">
+    <div id="text-wrapper">{{site.data.author.description}}</div>
+    <div id="social-wrapper">
+      {% for i in site.data.author.contact %}
+      <a href="{{i.url}}" target="_blank">
+        <img
+          src="https://sharadcodes.github.io/assets/png/{{i.title}}.png"
+          alt=""
+        />
+      </a>
+      {%endfor%}
+    </div>
+  </section>
+</section>
