@@ -9,7 +9,6 @@ author:
   email: dev_sharad@outlook.com
 
 plugins:
-  - jekyll-paginate
   - jemoji
   - jekyll-seo-tag
   - jekyll-sitemap
