@@ -21,7 +21,7 @@
 
 ## Alert!
 
-Don't touch `categories.js` inside `assets/js` folder unless you know what you're doing, it is used for generating links for the particular category pill you click on on blog and post page.
+Don't touch `categories.js` inside `assets/js` folder unless you know what you're doing, it is used for generating links for the particular category pill you click on.
 
 # Screenshots
 
