@@ -7,10 +7,7 @@
     <div id="social-wrapper">
       {% for i in site.data.author.contact %}
       <a href="{{i.url}}" target="_blank">
-        <img
-          src="https://sharadcodes.github.io/assets/png/{{i.title}}.png"
-          alt=""
-        />
+        <img src="{{site.baseurl}}/assets/icons/{{i.title}}.png" alt="" />
       </a>
       {%endfor%}
     </div>
