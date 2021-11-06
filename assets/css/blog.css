@@ -109,13 +109,13 @@ main {
   display: block;
   font-size: 0.8rem;
 }
-.articles .article .tags {
+.articles .article .categories {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
 }
-.articles .article .tags .tag {
+.articles .article .categories .category {
   margin: 0 0.5rem 0.3rem 0;
   display: block;
   color: var(--gray-4);

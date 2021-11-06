@@ -64,13 +64,13 @@ main {
   display: block;
   font-size: 0.8rem;
 }
-.tags {
+.categories {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
 }
-.tags .tag {
+.categories .category {
   margin: 0 0.5rem 0 0;
   display: block;
   color: var(--gray-4);
