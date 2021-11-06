@@ -11,9 +11,9 @@
             <a href="{{site.baseurl}}{{post.url}}"> {{post.title}} </a>
           </h2>
           <small class="date">{{post.date | date_to_string}}</small>
-          <div class="catgeories">
+          <div class="categories">
             {% for c in post.categories %}
-            <a href="#!" data-base-url="{{site.baseurl}}" class="catgeory"
+            <a href="#!" data-base-url="{{site.baseurl}}" class="category"
               >{{c}}</a
             >
             {% endfor %}
