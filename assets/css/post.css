@@ -58,6 +58,7 @@ main {
 .article-title {
   font-size: 2.4rem;
   margin-bottom: 0.6rem;
+  line-height: 140%;
 }
 
 .article .date {
@@ -179,4 +180,10 @@ main {
   color: var(--white-2);
   white-space: pre;
   background-color: var(--gray-3);
+}
+
+@media screen and (max-width: 750px) {
+  body {
+    padding: 1.5rem;
+  }
 }
