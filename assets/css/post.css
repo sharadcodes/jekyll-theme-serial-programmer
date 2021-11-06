@@ -182,6 +182,37 @@ main {
   background-color: var(--gray-3);
 }
 
+/* lbox */
+
+.content img {
+  cursor: zoom-in;
+}
+
+#lightbox {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none;
+}
+
+#lightbox.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#lightbox img {
+  max-width: 90%;
+  max-height: 80%;
+  padding: 4px;
+  background-color: black;
+  border: 2px solid white;
+}
+
 @media screen and (max-width: 750px) {
   body {
     padding: 1.5rem;
