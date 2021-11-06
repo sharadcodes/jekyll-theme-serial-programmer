@@ -27,16 +27,16 @@ Don't touch `categories.js` inside `assets/js` folder unless you know what you'r
 
 ## PC BLOG PAGE
 
-![Blog page](https://github.com/sharadcodes/jekyll-theme-serial-programmer/raw/master/screenshots/pc_blog.png)
+![Blog page](https://raw.githubusercontent.com/sharadcodes/jekyll-theme-serial-programmer/main/screenshots/pc_blog.png)
 
 ## PC POST EXAMPLE
 
-![Post page](https://github.com/sharadcodes/jekyll-theme-serial-programmer/raw/master/screenshots/pc_post.png)
+![Post page](https://raw.githubusercontent.com/sharadcodes/jekyll-theme-serial-programmer/main/screenshots/pc_post.png)
 
 ## PHONE BLOG PAGE
 
-![Blog page](https://github.com/sharadcodes/jekyll-theme-serial-programmer/raw/master/screenshots/mobile_blog.png)
+![Blog page](https://raw.githubusercontent.com/sharadcodes/jekyll-theme-serial-programmer/main/screenshots/mobile_blog.png)
 
 ## PHONE POST EXAMPLE
 
-![Post page](https://github.com/sharadcodes/jekyll-theme-serial-programmer/raw/master/screenshots/mobile_post.png)
+![Post page](https://raw.githubusercontent.com/sharadcodes/jekyll-theme-serial-programmer/main/screenshots/mobile_post.png)
