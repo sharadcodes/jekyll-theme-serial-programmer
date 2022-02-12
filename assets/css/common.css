@@ -61,3 +61,11 @@
 .modal-article:hover {
   background: var(--gray-4);
 }
+
+hr {
+	border-top: 2px dashed var(--white-2)!important;
+	border-bottom: none!important;
+	border-left: none!important;
+	border-right: none!important;
+	margin-bottom: 1.75rem!important;
+}
