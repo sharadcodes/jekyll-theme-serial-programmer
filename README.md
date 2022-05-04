@@ -21,7 +21,8 @@
 
 ## Alert!
 
-Don't touch `categories.js` inside `assets/js` folder unless you know what you're doing, it is used for generating links for the particular category pill you click on.
+* Don't touch `categories.js` inside `assets/js` folder unless you know what you're doing, it is used for generating links for the particular category pill you click on.
+* **Avoid having spaces in category name** because they break the category posts modal's code. You can use underscore instead of them.
 
 # Screenshots
 
