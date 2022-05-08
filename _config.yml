@@ -1,12 +1,12 @@
-title: Jekyll Serial Programmer
+title: Thanos Blog
 markdown: kramdown
 url: ""
-baseurl: "/jekyll-theme-serial-programmer"
+baseurl: ""
 
 # for atom feed
 author:
-  name: Sharad Raj Singh Maurya
-  email: dev_sharad@outlook.com
+  name: Thanos Mourtzoukos
+  email: thanosmour.tk@gmail.com
 
 plugins:
   - jemoji
@@ -24,5 +24,5 @@ defaults:
       path: "_posts"
     values:
       layout: "post"
-      permalink: /posts/:title/
+      permalink: /:title/
 exclude: ["sitemap.xml", "feed.xml", "LICENSE", "README.md"]
