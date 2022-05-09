@@ -2,7 +2,7 @@
 layout: post
 title: Run Pi-Hole in localhost and some extras
 date: 2022-03-19 10:18:00
-categories: [fiction, jekyll]
+categories: [self-host, privacy-protectio]
 ---
 
 ![header image](/assets/images/2022-03-19-Run-Pi-Hole-in-localhost-and-some-extras/save.drawio--1-.png)
