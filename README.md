@@ -27,7 +27,7 @@
 
 ## Asking for support!
 
-Hello everyone, If you have used this theme and if it has helped you in any way or if you just want to support me for my open source work, you can support me by donating any amount. Any amount is appriciated :)
+Hello everyone, If you have used this theme and if it has helped you in any way or if you just want to support me for my open source work, you can support me by donating any amount.
 
 You can use the sponsor button at the top or on the right.
 For Indians, you may use my UPI ID: `iamsharadraj@okaxis`.
