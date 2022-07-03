@@ -2,7 +2,7 @@
 layout: post
 title: Jekyll Markdown
 date: 2021-11-04
-categories: ["jekyll"]
+categories: ["jekyll", "Test Post", "first post"]
 ---
 
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`
@@ -15,9 +15,10 @@ There should be whitespace between paragraphs. We recommend including a README, 
 
 #### Image
 
-Images can be clicked to enlarge :) .
+Images can be clicked to enlarge :)
 
-![Dummy Image](https://picsum.photos/800/300)
+![Dummy Image 1](https://picsum.photos/1366/768)
+![Dummy Image 2](https://picsum.photos/1200/400)
 
 # Header 1
 
