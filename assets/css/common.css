@@ -10,7 +10,10 @@
 }
 #category-modal-bg {
   position: fixed;
-  inset: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
   background: rgba(0, 0, 0, 0.6);
   z-index: 10;
   display: none;
@@ -18,7 +21,10 @@
 }
 #category-modal {
   position: fixed;
-  inset: 0;
+  top: 0;
+  bottom: 0;
+  left: 1.5rem;
+  right: 1.5rem;
   z-index: 100;
   max-width: 850px;
   max-height: 60vh;
@@ -63,9 +69,9 @@
 }
 
 hr {
-	border-top: 2px dashed var(--white-2)!important;
-	border-bottom: none!important;
-	border-left: none!important;
-	border-right: none!important;
-	margin-bottom: 1.75rem!important;
+  border-top: 2px dashed var(--white-2) !important;
+  border-bottom: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  margin-bottom: 1.75rem !important;
 }
