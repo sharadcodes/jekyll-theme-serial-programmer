@@ -25,6 +25,13 @@
 * You should use github [discussions](https://github.com/sharadcodes/jekyll-theme-serial-programmer/discussions) to ask any question.
 * Don't use issues to ask any question unless you are facing issue related to the theme, jekyll or any file.
 
+## Asking for support!
+
+Hello everyone, If you have used this theme and if it has helped you in any way or if you just want to support me for my open source work, you can support me by donating any amount. Any amount is appriciated :)
+
+You can use the sponsor button at the top or on the right.
+For Indians, you may use my UPI ID: `iamsharadraj@okaxis`.
+
 # Screenshots
 
 ## PC BLOG PAGE
