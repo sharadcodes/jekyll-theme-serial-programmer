@@ -1,13 +1,9 @@
 # Jekyll Theme Serial Programmer 
 
-> A Jekyll theme for serial programmers (-.-)
-
-[Live Demo](https://sharadcodes.github.io/jekyll-theme-serial-programmer/)
-
 ## How to install
 
 1. Download or clone the repo
-   `git clone https://github.com/sharadcodes/jekyll-theme-serial-programmer.git`
+   `git clone https://github.com/athamour1/my-blog.git`
 2. Enter the folder
    `cd jekyll-theme-serial-programmer`
 3. Run
