@@ -19,6 +19,8 @@
 6. Change the `_config.yml` & `_data/author.yml` files as you like.
 7. Upload the files on your repository and :sunglasses: enjoy.
 
+> NOTE: You have to remove `url` and `baseurl` from `_config.yml` to use this theme for `<your-username>.github.io`
+
 ## Alert!
 
 * Don't touch `categories.js` inside `assets/js` folder unless you know what you're doing, it is used for generating links for the particular category pill you click on.
