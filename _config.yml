@@ -1,12 +1,12 @@
-title: Jekyll Serial Programmer
+title: DMCAsAService Blog
 markdown: kramdown
 url: ""
-baseurl: "/jekyll-theme-serial-programmer"
+baseurl: ""
 
 # for atom feed
 author:
-  name: Sharad Raj Singh Maurya
-  email: dev_sharad@outlook.com
+  name: Dylan McCarthy
+  email: dylan.v.mccarthy@gmail.com
 
 plugins:
   - jemoji
