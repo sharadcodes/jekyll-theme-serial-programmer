@@ -160,6 +160,9 @@ main {
   max-width: 100%;
   margin: 1rem 0;
 }
+.content img.emoji {
+	margin: 0 !important;
+}
 
 /* pre , code */
 .content,
