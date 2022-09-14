@@ -1,4 +1,11 @@
 {
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true
+  "editor.defaultFormatter": "vscode.markdown-language-features",
+  "editor.formatOnSave": true,
+  "grammarly.selectors": [
+    {
+      "language": "markdown",
+      "scheme": "file",
+      "pattern": "all_collections/_posts/*.md"
+    }
+  ]
 }
