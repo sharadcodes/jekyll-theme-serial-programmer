@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Azure Container Apps As A Dev Environment
-date: 2022-09-13
+date: 2022-09-15
 categories: ["DevEx", "Blog", "Azure", "GitHub Actions"]
 ---
 
