@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Branching Strategies
-date: 2022-09-26
+date: 2022-09-28
 categories: ["DevEx", "Source Control", "Git"]
 ---
 # Branching Strategies
