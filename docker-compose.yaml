@@ -9,6 +9,6 @@ services:
     volumes:
       - .:/project
     command: >
-      sh -c "cd /project && bundle install && bundle exec jekyll serve --host=0.0.0.0"
+      sh -c "cd /project && bundle install && bundle exec jekyll serve --host=0.0.0.0 --watch --incremental"
 
 # docker run -it -p 4000:4000 -v .:/project jekyll/jekyll bash 
