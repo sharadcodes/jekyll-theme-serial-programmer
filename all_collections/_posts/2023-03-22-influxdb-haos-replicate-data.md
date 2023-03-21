@@ -46,3 +46,11 @@ networks:
 Once the docker-compose stack is deployed, configuring the reverse proxy with Nginx Proxy Manager requires following the image below. To do this, it is necessary to have a registered domain. For example, in my case, I chose to use the `influx...` subdomain. Additionally, socket connection and SSL should be enabled to ensure secure and stable connection.
 
 ![NPM image](/assets/images/2023-03-22-influxdb-haos-replicate-data/influx_NPM.png)
+
+## Deploy Home Assistant and local InfluxDb OSS
+
+## Connect Home Assistant, InfluxDb and add UPnP for data
+
+## Create replication link
+
+## Conclusion
