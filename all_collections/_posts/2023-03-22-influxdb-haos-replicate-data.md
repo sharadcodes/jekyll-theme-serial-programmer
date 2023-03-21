@@ -19,7 +19,7 @@ InfluxDB is a popular open-source time-series database designed for storing and 
 
 In this setup, we have hosted an InfluxDB OSS instance on a Virtual Private Server (VPS) using docker containers and a docker-compose stack. To ensure easy management, we have set up a reverse proxy in front of the instance with the help of nginx proxy manager. You can find the documentation for deploying Nginx Proxy Manager (NPM) [here](https://nginxproxymanager.com/). Additionally, we suggest using the [Portainer CE](https://docs.portainer.io/) tool to effectively manage your Docker containers.
 
-Below is an example Docker Compose file for an InfluxDB OSS instance. Be sure to change the admin password before deploying it. This service will run on port `8086`, and at the bottom of the file, you need to update the name of the nginx proxy manager network. Additionally, adding `external: true` is necessary because this is an already existing Docker network that needs to be connected with the new service.
+Below is an example Docker Compose file for an InfluxDB OSS instance. Be sure to change the admin password before deploying it. This service will run on port `8086`, and at the bottom of the file, you need to update the name of the nginx proxy manager network. Additionally, adding `external: true` is necessary because this is an already existing Docker network that needs to be connected with the new service. To run the docker compose you can run `docker compose up -d` or just deploy with portainer.
 
 ```yaml
 version: '3.6'
