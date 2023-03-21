@@ -37,7 +37,6 @@ services:
     volumes:
       - influxdb_data:/var/lib/influxdb
 volumes:
-  telegraph_data: {}
   influxdb_data: {}
 networks:
   nginx-proxy-manager_backend:
