@@ -7,7 +7,7 @@ categories: [self-host, smart-home]
 
 ![header image](/assets/images/2023-03-22-influxdb-haos-replicate-data/banner.png)
 
-As the world becomes increasingly connected through IoT, the need for reliable data storage and transfer has become crucial. Raspberry Pi has been a popular choice as an IoT gateway, however, ensuring data retention without internet connectivity is challenging. In this article, we'll explore how using InfluxDB replication feature can help retain data on Raspberry Pi even in the absence of internet connectivity. We'll also discuss how Home Assistant can be used to scrape data from a UPnP router service to store locally in InfluxDB instance. By leveraging these tools, you can ensure your IoT devices remain online, collecting and storing critical data no matter what.
+As the world becomes increasingly connected through IoT, the need for reliable data storage and transfer has become crucial. Raspberry Pi 4B has been a popular choice as an IoT gateway, however, ensuring data retention without internet connectivity is challenging. In this article, we'll explore how using InfluxDB replication feature can help retain data on Raspberry Pi 4B even in the absence of internet connectivity. We'll also discuss how Home Assistant can be used to scrape data from a UPnP router service to store locally in InfluxDB instance. By leveraging these tools, you can ensure your IoT devices remain online, collecting and storing critical data no matter what.
 
 ## What is Home Assistant and influxDb ???
 
@@ -47,7 +47,29 @@ Once the docker-compose stack is deployed, configuring the reverse proxy with Ng
 
 ![NPM image](/assets/images/2023-03-22-influxdb-haos-replicate-data/influx_NPM.png)
 
-## Deploy Home Assistant and local InfluxDb OSS
+## Deploy Home Assistant and local InfluxDb OSS in Raspberry Pi 4B 4B
+
+Before setting up your Raspberry Pi 4B, ensure you have the latest version of Raspbian installed. You can do this using the Raspberry Pi 4B Imager tool. I recommend using a 32GB or higher SD card with at least a class 10 rating to ensure optimal performance. For formatting the card with Raspbian Lite (64-bit), you can use Raspberry Pi 4B imager select "Raspberry Pi 4B OS (Other)" category, select your sd card and click on "WRITE" button. (From Raspberry Pi 4B imager you can also enable ssh and add ssh keys, you can do so from the gear icon down right of the Raspberry Pi 4B imager application.)
+
+![RPI Imager image](/assets/images/2023-03-22-influxdb-haos-replicate-data/raspberry-pi-imager.png)
+
+After the installation finishes you can unmount the SD and put it in your Raspberry Pi 4B. Connect the Raspberry Pi 4B with power and ethernet and wait to startup. Then ssh into your Raspberry Pi 4B, if you haven't setup a ssh key and didn't change the default user and password is: `pi:raspberry`.
+First things first you need to update your Raspberry Pi 4B with the following commands:
+
+```bash
+sudo apt update
+sudo apt upgrade -y
+sudo apt dist-upgrade -y
+sudo reboot
+```
+
+Then we will need to install docker and docker-compose, to do so follow the instructions below:
+
+```bash
+curl -fsSL https://get.docker.com | sudo sh -
+sudo usermod -aG docker $(whoami)
+sudo reboot
+```
 
 ## Connect Home Assistant, InfluxDb and add UPnP for data
 
