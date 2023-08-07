@@ -1,10 +1,10 @@
-title: Jekyll Serial Programmer
+title: Lucas Koontz
 markdown: kramdown
 
 # for atom feed
 author:
-  name: Sharad Raj Singh Maurya
-  email: dev_sharad@outlook.com
+  name: Lucas Koontz
+  email: lucas.emanuel.koontz@gmail.com
 
 plugins:
   - jemoji
