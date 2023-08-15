@@ -1,0 +1,58 @@
+---
+layout: post
+title: The Backend Developer's Secret Weapon
+date: 2023-08-14 21:30:00
+categories: ["tidbits", "github", "organization", "cheatsheets", "codesnippets"]
+---
+
+# The Backend Developer's Secret Weapon: A GitHub Repository
+
+In my years as a backend developer, I've learned a thing or two about staying organized and productive. One of my most valuable tools for me is a GitHub repository that I use to store all of my dev resources.
+
+In this post, I'll share with you the benefits of using a GitHub repository for your dev resources, and I'll give you a sneak peek at my own repository.
+
+## What is a GitHub repository?
+
+A GitHub repository is a place where you can store your code, documentation, and other project files. It's a great way to keep everything organized and version controlled.
+
+## Why use a GitHub repository for your dev resources?
+
+There are many benefits to using a GitHub repository for your dev resources. Here are a few:
+
+- **It's centralized**. All of your resources are in one place, so you can easily find what you need. No more searching through your email or your hard drive for that one code snippet you know you saved somewhere.
+- **It's version controlled**. This means you can easily track your changes and revert to previous versions if something goes wrong.
+- **It's collaborative**. You can invite others to collaborate on your repository, which can be great for getting feedback on your work or for working on a project with a team.
+- **It's free**. GitHub is a free platform, so there's no cost to using it.
+
+## My own dev repository
+
+I have a GitHub repository called [tidbits](https://github.com/lucas-koontz/tidbits) (https://github.com/lucas-koontz/tidbits) where I store all of my dev resources. It's a treasure trove of tutorials, cheat sheets, code snippets, and more.
+
+Here are some of the resources I keep in my dev repository:
+
+- Tutorials
+- Cheat sheets
+- Code snippets
+- Images
+- Documentation
+- Dotfiles (local environments)
+
+I also like to include a README file in my repository that provides a brief overview of the contents.
+
+## How to get started
+
+If you're not already using a GitHub repository for your dev resources, I highly recommend giving it a try.
+
+To get started, you'll need to create a GitHub account. Once you have an account, you can create a new repository. When you create your repository, you can give it a name and description. You can also choose to make your repository public or private.
+
+Once you've created your repository, you can start adding your dev resources. You can add files by dragging and dropping them into the repository, or by using the GitHub website or CLI.
+
+I hope this blog post has inspired you to create your own dev repository on GitHub. It's a great way to stay organized and productive, and it's a lot of fun to build your own personal library of knowledge.
+
+<div style="text-align:center">![Jinora at Wan Shi Tong's Library](../../assets/images/2023-08-14-tidbits/jinora.gif)</div>
+
+## Bonus tip:
+
+I also use the Chrome extension [Toby](https://www.gettoby.com/) to store links to helpful websites. Toby is a great because offers spaces and categories to organize your links.
+
+<div style="text-align:center">![Toby](../../assets/images/2023-08-14-tidbits/toby.gif)*Not this Toby, I think*.</div>.
