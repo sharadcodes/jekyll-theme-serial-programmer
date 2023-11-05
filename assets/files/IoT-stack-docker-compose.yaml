@@ -1,0 +1,57 @@
+version: "3.6"
+services:
+  influxdb:
+    image: influxdb:latest
+    container_name: influxdb
+    restart: always
+    environment:
+      - INFLUXDB_DB=influx
+      - INFLUXDB_ADMIN_USER=admin
+      - INFLUXDB_ADMIN_PASSWORD=admin
+      - TZ=Europe/Athens
+    networks:
+      - iot
+    ports:
+      - 8086:8086
+    volumes:
+      - influxdb_data:/var/lib/influxdb2
+  homeassistant:
+    image: lscr.io/linuxserver/homeassistant:latest
+    container_name: homeassistant
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/UTC
+    volumes:
+      - homeassistant:/config
+    networks:
+      - iot
+    ports:
+      - 8123:8123 #optional
+    restart: unless-stopped
+  zwave-js-ui:
+    container_name: zwave-js-ui
+    image: zwavejs/zwave-js-ui:latest
+    restart: always
+    tty: true
+    stop_signal: SIGINT
+    environment:
+      - SESSION_SECRET=mysupersecretkey
+      - ZWAVEJS_EXTERNAL_CONFIG=/usr/src/app/store/.config-db
+      - TZ=Europe/Athens
+    networks:
+      - iot
+    devices:
+      - /dev/serial/by-id/usb-Silicon_Labs_CP2102N_USB_to_UART_Bridge_Controller_00815ac20455ed1192e58f131d62bc44-if00-port0:/dev/ttyUSB0
+    volumes:
+      - zwave-config:/usr/src/app/store
+    ports:
+      - 8091:8091 # port for web interface
+      - 3000:3000 # port for Z-Wave JS websocket server
+networks:
+  iot:
+volumes:
+  influxdb_data: {}
+  homeassistant: {}
+  zwave-config:
+    name: zwave-config
