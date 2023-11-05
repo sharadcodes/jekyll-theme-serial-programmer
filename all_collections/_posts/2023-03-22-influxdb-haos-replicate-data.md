@@ -179,7 +179,7 @@ Use the following command to create a remote connection. This command establishe
 ```bash
 influx remote create \
   --name updatedUrlRemote \
-  --remote-url https://influxdb-ed.fortesie.eurodyn.com \
+  --remote-url <protocol://domain> \
   --remote-api-token <remote_api_key> \
   --remote-org-id <remote_organization_id> \
   --org-id <local_organization_id> \
