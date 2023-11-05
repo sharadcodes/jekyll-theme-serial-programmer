@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  app:
+    image: jekyll/jekyll
+    container_name: jekyll-blog
+    ports:
+      - "4000:4000"
+    volumes:
+      - .:/project
+    command: >
+      sh -c "cd /project && bundle install && bundle exec jekyll serve --host=0.0.0.0 --watch --incremental"
+
+# docker run -it -p 4000:4000 -v .:/project jekyll/jekyll bash 
