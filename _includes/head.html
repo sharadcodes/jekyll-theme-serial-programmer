@@ -11,6 +11,16 @@
   {%endif%}
   <link rel="stylesheet" href="{{site.baseurl}}/assets/css/common.css" />
   <script src="{{site.baseurl}}/assets/js/categories.js"></script>
+  <script>
+    const currentTheme = localStorage.getItem("theme");
+    if (currentTheme) {
+      document.documentElement.setAttribute(
+        "data-theme",
+        localStorage.getItem("theme")
+      );
+    }
+  </script>
+  <script src="{{site.baseurl}}/assets/js/mode.js" defer async></script>
   {% if page.layout == "post" %}
   <script defer src="{{site.baseurl}}/assets/js/lbox.js"></script>
   {% endif %}
