@@ -50,7 +50,7 @@ You can use the sponsor button at the top or on the right.
 
 ## PC BLOG PAGE
 
-![Blog page](https://raw.githubusercontent.com/sharadcodes/jekyll-theme-serial-programmer/main/screenshots/pc_blog.png)
+![Blog page](https://raw.githubusercontent.com/sharadcodes/jekyll-theme-serial-programmer/main/screenshots/pc_blog_dm.png)
 
 ![Blog page light mode](https://raw.githubusercontent.com/sharadcodes/jekyll-theme-serial-programmer/main/screenshots/pc_blog_lm.png)
 
