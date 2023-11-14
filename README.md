@@ -4,6 +4,15 @@
 
 [Live Demo](https://sharadcodes.github.io/jekyll-theme-serial-programmer/)
 
+## Features
+
+- Responsive
+- Dark mode/Light mode
+- Syntax highlighting
+- Feed
+- Sitemap
+- and more...
+
 ## How to install
 
 1. Download or clone the repo
@@ -23,15 +32,15 @@
 
 ## Alert!
 
-* Don't touch `categories.js` inside `assets/js` folder unless you know what you're doing, it is used for generating links for the particular category pill you click on.
-* You should use github [discussions](https://github.com/sharadcodes/jekyll-theme-serial-programmer/discussions) to ask any question.
-* Don't use issues to ask any question unless you are facing issue related to the theme, jekyll or any file.
+- Don't touch `categories.js` inside `assets/js` folder unless you know what you're doing, it is used for generating links for the particular category pill you click on.
+- You should use github [discussions](https://github.com/sharadcodes/jekyll-theme-serial-programmer/discussions) to ask any question.
+- Don't use issues to ask any question unless you are facing issue related to the theme, jekyll or any file.
 
 ## Asking for support!
 
 Hello everyone, If you have used this theme and if it has helped you in any way or if you just want to support me for my open source work, you can support me by donating any amount.
 
-You can use the sponsor button at the top or on the right. 
+You can use the sponsor button at the top or on the right.
 
 ### [Github Sponsor Page](https://github.com/sponsors/sharadcodes)
 
@@ -42,6 +51,8 @@ You can use the sponsor button at the top or on the right.
 ## PC BLOG PAGE
 
 ![Blog page](https://raw.githubusercontent.com/sharadcodes/jekyll-theme-serial-programmer/main/screenshots/pc_blog.png)
+
+![Blog page light mode](https://raw.githubusercontent.com/sharadcodes/jekyll-theme-serial-programmer/main/screenshots/pc_blog_lm.png)
 
 ## PC POST EXAMPLE
 
