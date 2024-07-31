@@ -1,10 +1,10 @@
-title: Jekyll Serial Programmer
+title: Moshe Deitsch
 markdown: kramdown
 
 # for atom feed
 author:
-  name: Sharad Raj Singh Maurya
-  email: dev_sharad@outlook.com
+  name: Moshe Deitsch
+  email: moshedeitsch@outlook.com
 
 plugins:
   - jemoji
