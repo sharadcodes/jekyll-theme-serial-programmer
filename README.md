@@ -4,6 +4,18 @@
 
 [Live Demo](https://sharadcodes.github.io/jekyll-theme-serial-programmer/)
 
+## Latest Updates 🎉
+
+### New Features
+
+- **Math Support**: Write beautiful mathematical equations using LaTeX syntax
+  - Inline math: `$E = mc^2$`
+  - Display math: `$$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$`
+- **Code Copy Button**: One-click copy code blocks with visual feedback
+  - Appears on hover at the bottom right of code blocks
+  - Shows "Copied!" feedback when clicked
+  - Works with both light and dark themes
+
 ## Features
 
 - Responsive
