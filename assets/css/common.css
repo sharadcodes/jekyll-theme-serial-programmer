@@ -134,3 +134,48 @@ hr {
   border-right: none !important;
   margin-bottom: 1.75rem !important;
 }
+
+/* Copy code button */
+.copy-code-button {
+  position: absolute;
+  right: 0.25rem;
+  bottom: 0.25rem;
+  opacity: 0;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  line-height: normal;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  background-color: var(--white-1);
+  color: var(--gray-5);
+  transition: opacity 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+pre:hover .copy-code-button {
+  opacity: 1;
+}
+
+.copy-code-button:hover {
+  background-color: var(--white-2);
+}
+
+[data-theme="light"] .copy-code-button {
+  background-color: var(--gray-2);
+  color: var(--white-1);
+}
+
+[data-theme="light"] .copy-code-button:hover {
+  background-color: var(--gray-3);
+}
+
+@media (prefers-color-scheme: light) {
+  .copy-code-button {
+    background-color: var(--gray-2);
+    color: var(--white-1);
+  }
+
+  .copy-code-button:hover {
+    background-color: var(--gray-3);
+  }
+}
