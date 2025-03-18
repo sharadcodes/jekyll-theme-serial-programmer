@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Math Examples
-date: 2023-03-18
-categories: [tutorial]
+date: 2025-03-18
+categories: [tutorial, math]
 ---
 
 # Math Support in Markdown
