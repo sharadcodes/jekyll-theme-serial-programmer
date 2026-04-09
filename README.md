@@ -4,7 +4,7 @@
 
 [Live Demo](https://sharadcodes.github.io/jekyll-theme-serial-programmer/)
 
-Also chek out my new theme (2026) "Ananta" - It's a Minimal, research-oriented Hugo theme [Go to Ananta](https://github.com/sharadcodes/ananta-theme-hugo)
+Also check out my new theme (2026) "Ananta" - It's a Minimal, research-oriented Hugo theme [Go to Ananta](https://github.com/sharadcodes/ananta-theme-hugo)
 
 ## Latest Updates 🎉
 
